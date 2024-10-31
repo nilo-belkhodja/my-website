@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    text-align: center;
+    background-color: #f2a365;
+    color: white;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.city-links {
+    text-align: center;
+    padding: 2rem;
+}
+
+.city-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.city-link {
+    padding: 1rem 2rem;
+    background-color: #f28482;
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.city-link:hover {
+    background-color: #e63946;
+}
+
+.top-bars {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fefefe;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1d3557;
+}
+
+a:hover {
+    color: #f28482;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f2a365;
+    color: white;
+    font-size: 0.9rem;
+}
